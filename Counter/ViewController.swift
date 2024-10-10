@@ -4,7 +4,7 @@ final class ViewController: UIViewController {
 //MARK: - переменные и константы
     @IBOutlet private weak var counterLabel: UILabel!
     @IBOutlet private weak var textFieldLogg: UITextView!
-    @IBOutlet private weak var LableLog: UILabel!
+    @IBOutlet private weak var lableLog: UILabel!
     
     private var counter: UInt8 = 0 {
         didSet {
@@ -18,7 +18,7 @@ final class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setColorLabel()
-        LableLog.text = "История изменений:"
+        lableLog.text = "История изменений:"
         textFieldLogg.text = ""
         textFieldLogg.isEditable = false
         counterLabel.text = "\(counter)"
@@ -64,7 +64,7 @@ final class ViewController: UIViewController {
     
     private func isBestNum(){
         if counter == 73 {
-            textFieldLogg.text += "73 - Лучшее число не только по мнению Шелдона Купера!"
+            textFieldLogg.text += "73 - Лучшее число не только по мнению Шелдона Купера!\n"
         }
     }
     

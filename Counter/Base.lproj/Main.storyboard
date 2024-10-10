@@ -88,8 +88,8 @@
                         <color key="backgroundColor" red="0.73264747639445271" green="0.86078912019729614" blue="0.034395788647857695" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
-                        <outlet property="LableLog" destination="kPT-c6-paT" id="2Il-4N-R6s"/>
                         <outlet property="counterLabel" destination="yg1-Em-ooA" id="fU3-SE-16c"/>
+                        <outlet property="lableLog" destination="kPT-c6-paT" id="2Il-4N-R6s"/>
                         <outlet property="textFieldLogg" destination="hK9-IU-8jE" id="1Y6-lt-kxE"/>
                     </connections>
                 </viewController>
@@ -106,7 +106,7 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemIndigoColor">
-            <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
