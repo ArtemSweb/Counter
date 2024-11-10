@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Counter
 //
-//  Created by Artem Solodovnikov on 09.10.2024.
+//  Created by Artem Solodovnikov on 05.10.2024.
 //
 
 import UIKit
